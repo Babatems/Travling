@@ -27,7 +27,6 @@ export default function Destinations() {
                     image={"/images/jakarta.png"}
                     location={"Jakarta"}
                     title={"Paket Tiket Pesawat Jakarta Bali"}
-                    duration={"5 Days"}
                     cost={"605.000"}
                     className='w-[154px]'
                 />
