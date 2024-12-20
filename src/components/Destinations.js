@@ -23,14 +23,12 @@ export default function Destinations() {
                     duration={"1 Days"}
                     cost={"1,205.000"}
                 />
-                <div className="flex flex-col gap-4">
-                    <SingleDestination 
-                        image={"/images/jakarta.png"}
-                        location={"Jakarta"}
-                        title={"Paket Tiket Pesawat Jakarta Bali"}
-                        cost={"605.000"}
-                    />
-                </div>
+                <SingleDestination 
+                    image={"/images/jakarta.png"}
+                    location={"Jakarta"}
+                    title={"Paket Tiket Pesawat Jakarta Bali"}
+                    cost={"605.000"}
+                />
                 <SingleDestination 
                     image={"/images/kota.png"}
                     location={"Kota Semarang"}
