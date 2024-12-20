@@ -3,11 +3,11 @@ import '@fontsource/lato';
 export default function SingleDestination({ image, location, title, duration, cost }) {
     return (
         <div className="w-full max-w-[400px] bg-[#F0F0F0] rounded-2xl overflow-hidden">
-            <div className="p-4">
+            <div className="p-4 mb-4">
                 <img 
                     src={image}
                     alt={`${title}`}
-                    className="w-[264px] h-[180px] rounded-lg mb-4 object-cover"
+                    className="w-[264px] h-[180px] rounded-lg object-cover"
                 />
 
                 <div className="mx-4">
