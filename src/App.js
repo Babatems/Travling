@@ -4,6 +4,7 @@ import Intro from "./components/Intro"
 import '@fontsource/poppins';
 import Question from "./components/Question";
 import Plan from "./components/Plan"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Destinations />
       <Question />
       <Plan />
+      <Footer />
     </div>
   )
 }
