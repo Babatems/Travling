@@ -7,7 +7,7 @@ export default function SingleDestination({ image, location, title, duration, co
                 <img 
                     src={image}
                     alt={`${title}`}
-                    className="w-full h-[180px] rounded-lg mb-4 object-cover"
+                    className="w-[264px] h-[180px] rounded-lg mb-4 object-cover"
                 />
 
                 <div className="mx-4">
