@@ -8,7 +8,7 @@ export default function SingleDestination({ image, location, title, duration, co
                 <img 
                     src={image}
                     alt={`${title}`}
-                    className="w-[264px] h-[180px] rounded-lg object-cover mb-4"
+                    className="w-full h-[180px] rounded-lg object-cover mb-4"
                 />
 
                 {/* Content Section */}
